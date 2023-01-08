@@ -5,25 +5,21 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" class="css" />
-    <script
-      src="https://kit.fontawesome.com/315b9aa27b.js"
-      crossorigin="anonymous"
-    ></script>
-    <title>Painter</title>
+       <script src="https://kit.fontawesome.com/315b9aa27b.js" crossorigin="anonymous"></script>
+    <title>paint clone</title>
   </head>
   <body>
     <div class="container">
       <div class="navbar">
-        <select class="toolOptions" data-icon="fa-regular fa-paintbrush-pencil">
-          <!--how to add an icon-->>
-          <option value="pencil">pencil</option>
-          <option value="pen">pen</option>
-          <option value="brush">brush</option>
-          <option value="spray">spray</option>
-          <option value="shape">shape</option>
-          <option value="text">text</option>
+        <select class="toolOptions">
+          <option value="pencil" data-icon="fa-solid fa-paintbrush">pencil</option>
+  <option value="pen" data-icon="fa-solid fa-pen">pen</option>
+  <option value="brush" data-icon="fa-solid fa-brush">brush</option>
+  <option value="spray" data-icon="fa-solid fa-spray">spray</option>
+  <option value="shape" data-icon="fa-solid fa-shape">shape</option>
+  <option value="text" data-icon=" fa-solid fa-text">text</option>
         </select>
-        <button class="color" data-icon="fa-regular fa-palette"></button>
+        <button class="color"  data-icon="fa-regular fa-palette"></button>
         <button class="weight"></button>
         <button class="eraser"></button>
         <button class="back"></button>

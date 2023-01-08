@@ -14,7 +14,10 @@ body {
   margin-top: 10px;
   width: 784px;
   height: 542px;
+   margin-right: 10px;
   background: grey;
+   display: flex;
+  align-items: start;
 }
 
 .navbar {
@@ -48,7 +51,7 @@ button:hover {
   background: white;
 }
 
-select[data-icon]::before {
-  content: attr(data-icon);
-  font-family: 'Icons'; /* name of your icon font */
+option::data-icon{
+  z-index:1000;
+  color:white;
 }
